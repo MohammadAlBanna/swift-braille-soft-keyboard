@@ -1,3 +1,5 @@
+<img width="250" src="https://github.com/MohammadAlBanna/Swift-Braille-Soft-keyboard/blob/master/images/screenshots/connect%20the%20dots.png?raw=true" />
+
 # Swift Braille Soft keyboard
 SwiftBraille is an Android soft keyboard for blind and visually impaired, available for free on Google play store. The aim of this keyboard is to let the blind type using Braille language on their Android touch devices, but not by tap over Braille dots, they can connect the needed Braille dots together to type a letter, character, special symbols as they represented in Braille codes. [More details](http://en.swiftbraille.com/blog/about-project/)
 
@@ -11,7 +13,7 @@ Those apps are good in some points, but what about small screen dimensions? spec
 A soft keyboard, supports many languages [(read about supported languages)](http://en.swiftbraille.com/blog/supported-languages/) in user interface and inputs method, the blind will be able to type using one hand and one finger at least to type using Braille language, how? By connecting the needed Braille dots together. He can use his smart device in portrait or landscape.
 
 # Classes sketch
-![Classes sketch]()
+<img src="https://github.com/MohammadAlBanna/Swift-Braille-Soft-keyboard/blob/master/files/Braille%20Keyboard%20Sketch.png?raw=true" />
 
 # Resources
 1. [Main website - Arabic and English](http://swiftbraille.com).
@@ -20,3 +22,11 @@ A soft keyboard, supports many languages [(read about supported languages)](http
 4. [Support the project](http://en.swiftbraille.com/blog/support-project/).
 5. [Contact me](http://en.swiftbraille.com/blog/contact/).
 6. [Get the keyboard](https://play.google.com/store/apps/details?id=com.mbanna.swiftbraille).
+
+# Screenshots
+<img width="250" src="https://github.com/MohammadAlBanna/Swift-Braille-Soft-keyboard/blob/master/images/screenshots/main%20screen%20happy%20face.png?raw=true" />
+
+<img width="250" src="https://github.com/MohammadAlBanna/Swift-Braille-Soft-keyboard/blob/master/images/screenshots/voice%20input%20focused.png?raw=true" />
+
+<img width="250" src="https://github.com/MohammadAlBanna/Swift-Braille-Soft-keyboard/blob/master/images/screenshots/Perkins%20one%20line.png?raw=true?raw=true" />
+
