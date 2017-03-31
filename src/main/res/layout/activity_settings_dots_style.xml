@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/swiftBrailleBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dot_fill_color"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimary" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dot_fill_color_description"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/secondaryText" />
+
+            <Button
+                android:id="@+id/dotFillColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/defaultDotFillColor"
+                android:contentDescription="@string/dot_fill_color"
+                android:minHeight="30dp"
+                android:minWidth="30dp"
+                android:onClick="onDotFillColorPickerAction"
+                android:text="" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/dot_stroke_color"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimary" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/dot_stroke_color_description"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/secondaryText" />
+
+            <Button
+                android:id="@+id/dotStrokeColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/defaultDotStrokeColor"
+                android:contentDescription="@string/dot_stroke_color"
+                android:minHeight="30dp"
+                android:minWidth="30dp"
+                android:onClick="onDotStrokeColorPickerAction"
+                android:text="@null" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/dot_radius"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimary" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <LinearLayout
+            android:id="@+id/dotRadiusPortraitContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/keyboard_portrait_height"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/secondaryText" />
+
+            <Spinner
+                android:id="@+id/dotRadiusPortraitSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/keyboard_landscape_height"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/secondaryText" />
+
+            <Spinner
+                android:id="@+id/dotRadiusLandscapeSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/general_settings_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimary" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/fillDotOnTouch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/fill_dot_on_touch" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/viewBrailleDotNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/view_braille_dot_number_text" />
+
+        <!-- Reset settings button -->
+        <Button
+            style="@style/btnStyle.redBtn"
+            android:layout_marginTop="30dp"
+            android:onClick="onResetSettingsBtnAction"
+            android:id="@+id/resetSettingsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_settings"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>

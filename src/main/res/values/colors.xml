@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorRed">#fc2a38</color>
+    <color name="separatorColor">#e4e4e4</color>
+    <color name="swiftBrailleBG">#fcfcfc</color>
+    <color name="defaultDotFillColor">#009688</color>
+    <color name="defaultDotStrokeColor">#B2DFDB</color>
+    <color name="primaryText">#009688</color>
+    <color name="secondaryText">#727272</color>
+    <color name="swiftBrailleTopBorder">#4CAF50</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Main activity menu-->
+    <item android:id="@+id/howToItem" android:title="@string/how_to_item"/>
+    <item android:id="@+id/whatsNewItem" android:title="@string/whats_new_item"/>
+    <item android:id="@+id/shareItem" android:title="@string/share_item"/>
+    <item android:id="@+id/joinTestingProgram" android:title="@string/join_testing_program"/>
+    <item android:id="@+id/aboutItem" android:title="@string/about_item"/>
+    <item android:id="@+id/licenceItem" android:title="@string/licence_item"/>
+    <item android:id="@+id/privacyPolicyItem" android:title="@string/privacy_policy_item"/>
+</menu>

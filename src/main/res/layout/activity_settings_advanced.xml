@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/swiftBrailleBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:textOn=""
+            android:textOff=""
+            android:textColor="@color/secondaryText"
+            android:id="@+id/activateGestures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/activate_gesture" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/showOperationsButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/operation_bars_text" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/vibrationOnDotTap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/vibration_on_dot_tap" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/capitalizeFirstWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/capitalize_first_word" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/showBrailleDotsFromRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/start_braille_dots_from_right" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/makeDot2And5Higher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/make_dot_2_5_higher" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/newLineHideKeyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/new_line_hides_keyboard" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/preventKeyboardRotation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/prevent_rotation" />
+
+        <LinearLayout
+            android:id="@+id/stopOverDotContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/moves_over_dots_description"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <!-- Separator -->
+            <include layout="@layout/title_separator" />
+
+            <Spinner
+                android:id="@+id/stopOverDotSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- GET SELECTED DOTS PERIOD-->
+        <LinearLayout
+            android:id="@+id/getSelectedDotsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_selected_dots_description"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <!-- Separator -->
+            <include layout="@layout/title_separator" />
+
+            <Spinner
+                android:id="@+id/selectedDotsPeriodSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Reset settings button -->
+        <Button
+            style="@style/btnStyle.redBtn"
+            android:layout_marginTop="30dp"
+            android:onClick="onResetSettingsBtnAction"
+            android:id="@+id/resetSettingsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_settings"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>

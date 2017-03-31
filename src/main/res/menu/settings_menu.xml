@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Settings activity menu-->
+    <item android:id="@+id/howToItem" android:title="@string/how_to_item"/>
+</menu>

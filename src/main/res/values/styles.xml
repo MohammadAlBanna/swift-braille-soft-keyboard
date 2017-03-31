@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Change the spinner style-->
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItemStyle</item>
+    </style>
+
+    <!-- Buttons style-->
+    <style name="btnStyle">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+
+    <style name="btnStyle.redBtn">
+        <item name="android:background">#ff3b3b</item>
+    </style>
+
+    <!-- Color picker style -->
+    <style name="colorpickerview__ColorPickerViewStyle">
+        <item name="android:layout_width">215dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Spinner style -->
+    <style name="spinnerItemStyle">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+    </style>
+
+    <!-- Spinner style drop down style-->
+    <style name="spinnerDropDownItemStyle">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+    </style>
+</resources>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main things-->
+    <string name="app_name">سويفت برايل</string>
+    <string name="not_braille_code">هذا ليس كود برايل صحيح!</string>
+    <string name="app_keyboard_description">لوحة مفاتيح سويفت برايل</string>
+    <string name="version">إصدار %1$s</string>
+    <string name="loading_text">يجري التحميل…</string>
+    <string name="reset_settings">إعادة تعيين الإعدادات</string>
+    <string name="reset_settings_done">تمت إعادة تعيين الإعدادات</string>
+    <string name="caution">تنبيه</string>
+    <string name="more_details">تفاصيل أكثر</string>
+    <string name="general_settings_text">الإعدادات العامة</string>
+    <string name="braille_dots_positions">أماكن نقاط برايل</string>
+    <string name="features">المزايا</string>
+    <string name="got_it">أتفهم ذلك</string>
+    <string name="settings_title">إعدادات سويفت برايل</string>
+    <string name="app_shows_en_keyboard">عرض لوحة المفاتيح الإنجليزية</string>
+    <string name="app_shows_ar_keyboard">عرض لوحة المفاتيح العربية</string>
+    <string name="app_shows_es_keyboard">عرض لوحة المفاتيح الإسبانية</string>
+    <string name="app_shows_fr_keyboard">عرض لوحة المفاتيح الفرنسية</string>
+    <string name="app_is_hidden">تم إغلاق لوحة مفاتيح سويفت برايل</string>
+    <string name="app_final_text">والنص النهائي هو </string>
+    <string name="multi_touch_device_support">عظيم! جهازك يدعم اللمس المتعدد باستخدام ستة أصابع في آنٍ واحد.</string>
+    <string name="multi_touch_device_not_support">همم..يبدو أن جهازك لا يدعم اللمس المتعدد باستخدام ست أصابع في آنٍ واحد!</string>
+    <string name="coming_soon_title">قادم قريباً</string>
+    <string name="special_tools_coming_soon">هذا القسم قيد التطوير حالياً.</string>
+
+    <!-- Main screen activity -->
+    <string name="swift_braille_is_default_keyboard">رائع! يبدو أن سويفت برايل هي لوحة المفاتيح الافتراضية!</string>
+    <string name="swift_braille_is_not_default_keyboard_text">لا يبدو أن سويفت برايل هي لوحة المفاتيح الافتراضية!</string>
+    <string name="activate_btn">١. تفعيل</string>
+    <string name="set_default_btn">٢. اللوحة الافتراضية</string>
+    <string name="customize_btn">٣. تخصيص</string>
+    <string name="training_input_title">اطبع أي شيء؟</string>
+    <string name="training_input_hint">اطبع أي شيء…</string>
+
+    <!-- About activity -->
+    <string name="about_description">تطبيق سويفت برايل هو عبارة عن لوحة مفاتيح مخصصة للمكفوفين وضعاف البصر لتمكينهم من الطباعة عبر لغة برايل إما بتوصيل النقاط أو الضغط عليها. يمكنك طباعة الأحرف، الأرقام، رموز رياضيات، وبعضاً من الرموز الخاصة (يرجى الرجوع لمدونة المشروع لمزيد من التفاصيل). تم تطويره بواسطة محمد مفيد البنا.</string>
+    <string name="part_of">جزء من مشاريع MBanna.info</string>
+    <string name="facebook_icon">سويفت برايل على فيسبوك</string>
+    <string name="twitter_icon">سويفت برايل على تويتر</string>
+    <string name="youtube_icon">سويفت برايل على يوتيوب</string>
+    <string name="website_icon">الموقع الإلكتروني لسويفت برايل</string>
+
+    <!-- Advanced activity -->
+    <string name="activate_gesture">تفعيل الإيماءات</string>
+    <string name="operation_bars_text">عرض أشرطة العمليات</string>
+    <string name="vibration_on_dot_tap">تفعيل الإهتزاز عند الضغط على نقاط برايل</string>
+    <string name="capitalize_first_word">كتابة الحرف الأول من الجملة حرف كبير</string>
+    <string name="start_braille_dots_from_right">ابدء عرض نقاط برايل من يمين الشاشة</string>
+    <string name="new_line_hides_keyboard">إخفاء لوحة المفاتيح عند طباعة سطر جديد (للحقول الغير متعددة الأسطر)</string>
+    <string name="prevent_rotation">منع تدوير الشاشة عند فتح لوحة المفاتيح</string>
+    <string name="moves_over_dots_description">احتسب نقطة برايل عند الوقوف عليها خلال</string>
+    <string name="get_selected_dots_description">احتسب نقاط برايل المختارة بعد</string>
+    <string name="stop_one_second">عند الوقوف لمدة ثانية</string>
+    <string name="stop_half_second"> الوقوف لمدة نصف ثانية</string>
+    <string name="after_half_second">بعد نصف ثانية</string>
+    <string name="no_stop_when_hover">بمجرد المرور على النقطة</string>
+    <string name="no_period_selected_dots">بمجرد رفع كل الأصابع عن الشاشة</string>
+    <string name="after_one_second">بعد ثانية</string>
+    <string name="after_two_seconds">بعد ثانيتين</string>
+    <string name="after_one_and_half_second">بعد ثانية ونصف الثانية</string>
+    <string name="milliseconds">%1$d ميلي ثانية</string>
+    <string name="gestures_and_ops_bars_inactivated">الإيماءات وأشرطة والعمليات غير مفعلّان! لن تكون قادراً على تغيير لغة لوحة المفاتيح أو حتى الأنواع!</string>
+    <string name="make_dot_2_5_higher">اجعل النقطة رقم إثنان والنقطة رقم خمسة أعلى من النقاط الأخرى</string>
+
+    <!-- Dots layout activity and layout -->
+    <string name="caution_dots_layout_1">تغيير نمط نقاط برايل سيغير بعضاً من الإعدادات الإفتراضية، مع إحتمالية عرض وإخفاء إعدادات أخرى.</string>
+    <string name="braille_cell_layout">نمط خلية برايل</string>
+    <string name="braille_cell_layout_description">عرض النقاط الست كما يتم تمثيلها في خلية برايل.</string>
+    <string name="braille_cell_layout_selected">نمط خلية برايل هو المختار حالياً</string>
+    <string name="braille_cell_layout_not_selected">نمط خلية برايل غير مختار</string>
+    <string name="perkins_layout">نمط آلة البيركنز</string>
+    <string name="perkins_layout_description">عرض نقاط برايل الست في خط واحد والطباعة كآلة البيركنز.</string>
+    <string name="perkins_layout_selected">نمط بيركنز هو المختار حالياً</string>
+    <string name="perkins_layout_not_selected">نمط آلة بيركنز غير مختار</string>
+    <string name="two_rows_layout">نمط الصفان الأفقيان</string>
+    <string name="two_rows_layout_description">عرض نقاط برايل الست في خطين أفقيين أسفل لوحة المفاتيح.</string>
+    <string name="two_rows_layout_selected">نمط صفان أفقيان هو المختار حالياً</string>
+    <string name="two_rows_layout_not_selected">نمط صفان أفقيان غير مختار</string>
+
+    <!-- Dots style activity and layout-->
+    <string name="current_selected_color">اللون الحالي </string>
+    <string name="previous_selected_color">اللون السابق</string>
+    <string name="color_picker_fill_dot_title">اختر لون نقاط برايل</string>
+    <string name="color_picker_stroke_dot_title">اختر لون إطار نقاط برايل</string>
+    <string name="dot_fill_color">لون نقاط برايل</string>
+    <string name="dot_fill_color_description">تغيير لون نقاط برايل</string>
+    <string name="dot_stroke_color">لون إطار نقاط برايل</string>
+    <string name="dot_stroke_color_description">تغيير لون إطار نقاط برايل</string>
+    <string name="dot_radius">نصف قطر نقاط برايل</string>
+    <string name="keyboard_portrait_height">في الوضعية الرأسية:</string>
+    <string name="keyboard_landscape_height">في الوضعية الأفقية:</string>
+    <string name="fill_dot_on_touch">التلوين فقط عند الضغط أو المرور على النقطة</string>
+    <string name="view_braille_dot_number_text">عرض رقم نقاط برايل</string>
+    <string name="color_picker_select_color">تم</string>
+    <string name="keyboard_right_position">عرض لوحة المفاتيح من يمين الشاشة</string>
+    
+    <!-- Keyboard dimension activity and layout -->
+    <string name="keyboard_dimensions">أبعاد لوحة المفاتيح</string>
+    <string name="keyboard_height">طول لوحة المفاتيح</string>
+    <string name="keyboard_width">عرض لوحة المفاتيح</string>
+    <string name="will_change_radius">تغيير هذه الإعدادات سيغير من نصف قطر نقاط برايل!</string>
+
+    <!-- Keyboard languages activity and layout-->
+    <string name="keyboard_language_caution">تغيير طرق الإدخال النشطة قد يغير اللغة الافتراضية للوحة المفاتيح، عرض، أو إخفاء إعدادات أخرى.</string>
+    <string name="one_lang_must_selected">على الأقل لغة واحدة يجب أن يتم اختيارها!</string>
+    <string name="active_input_methods">وسائل الإدخال النشطة</string>
+
+    <!-- Settings activity and layout -->
+    <string name="dots_layout">توزيع نقاط برايل</string>
+    <string name="dot_style">شكل نقاط برايل</string>
+    <string name="keyboard_languages">لغات لوحة المفاتيح</string>
+    <string name="default_keyboard_language">لغة لوحة المفاتيح الافتراضية</string>
+    <string name="sounds_item">الأصوات</string>
+    <string name="advanced_item">إعدادات متقدمة</string>
+    <string name="special_tools_item">أدوات خاصة</string>
+    <string name="about_title">عن التطبيق</string>
+
+    <!-- Sounds activity and layout -->
+    <string name="sound_over_braille_dot">صوت النقطة</string>
+    <string name="tts_engines_item">محركات تحويل النص إلى كلام</string>
+    <string name="activate_voice_sound">تفعيل الإدخال عبر الصوت</string>
+    <string name="talk_back_char">استخدم المحرك الناطق لنطق كل ما يتم كتابته من حروف أو كلمات</string>
+    <string name="play_always_stored_voices">استخدم دائماً الأصوات المُسجلة (أصوات عربية فقط)</string>
+    <string name="read_written_text">اقرأ النص المكتوب بعد إغلاق لوحة المفاتيح</string>
+    <string name="no_braille_dot_sound">بلا صوت</string>
+    <string name="tick_braille_dot_sound">صوت تكتكة</string>
+    <string name="dorime_braille_dot_sound">صوت موسيقي</string>
+    <string name="number_braille_dot_sound">صوت رقم نقطة برايل</string>
+    <string name="ops_bars_off_for_voice_input">يبدو أن أشرطة العمليات غير مفعّلة، برجاء تفعيلها لاستخدام هذه الميزة بشكل صحيح!</string>
+
+    <!-- Menus and Operations bars -->
+    <string name="hide_keyboard">إخفاء لوحة المفاتيح</string>
+    <string name="space">مسافة</string>
+    <string name="new_line">سطر جديد</string>
+    <string name="back_space">تم إزالة %1$s </string>
+    <string name="full_text_deletion">تم إزالة كافة النص</string>
+    <string name="word_deletion">تم حذف %1$s</string>
+    <string name="change_keyboard_language">تغيير لغة لوحة المفاتيح </string>
+    <string name="change_keyboard_pattern">تغيير نوع لوحة المفاتيح </string>
+    <string name="texts">النصوص </string>
+    <string name="voice_input">الإدخال عبر الصوت</string>
+    <string name="copy_text">نسخ</string>
+    <string name="paste_text">لصق</string>
+    <string name="remove_last_char">تراجع</string>
+    <string name="remove_last_word">حذف آخر كلمة</string>
+    <string name="remove_all_text">حذف كامل النص</string>
+    <string name="text_copied">تم نسخ النص</string>
+    <string name="text_pasted">تم لصق النص</string>
+    <string name="how_to_link">http://ar.swiftbraille.com/blog/how-to/?utm_source=SwiftBrailleApp</string>
+    <string name="under_testing_link">http://ar.swiftbraille.com/blog/under-testing/?utm_source=SwiftBrailleApp</string>
+    <string name="swiftbraille_share_text">شارك سويفت برايل…</string>
+    <string name="how_to_item">دليل الاستخدام</string>
+    <string name="about_item">عن التطبيق</string>
+    <string name="share_item">شارك التطبيق</string>
+    <string name="licence_item">رخصة الاستخدام</string>
+    <string name="licence_link">http://ar.swiftbraille.com/blog/licence/?utm_source=SwiftBrailleApp</string>
+    <string name="privacy_policy_item">سياسة الخصوصية</string>
+    <string name="privacy_policy_link">http://ar.swiftbraille.com/blog/privacy-policy/?utm_source=SwiftBrailleApp</string>
+    <string name="whats_new_item">ما الجديد</string>
+    <string name="whats_new_link">http://ar.swiftbraille.com/blog/logs/?utm_source=SwiftBrailleApp</string>
+    <string name="join_testing_program">التحق ببرنامج الإختبار</string>
+    <string name="move_keyboard_top_left">أنقل لوحة المفاتيح لأقصى يسار الشاشة</string>
+    <string name="move_keyboard_top_right">أنقل لوحة المفاتيح لأقصى يمين الشاشة</string>
+    <string name="keyboard_is_top_left">لوحة المفاتيح الآن أقصى يسار الشاشة</string>
+    <string name="keyboard_is_top_right">لوحة المفاتيح الآن أقصى يمين الشاشة</string>
+    <string name="keyboard_full_width">العرض الكامل للوحة المفاتيح</string>
+    <string name="keyboard_is_full_width">لوحة المفاتيح الآن بالعرض الكامل للشاشة</string>
+
+    <!-- Braille cell layout dialog -->
+    <string name="braille_cell_layout_dialog_description">هذا النمط يظهر النقاط الستة الخاصة بلغة برايل كما يتم تمثيلها في خلية برايل، وهو النمط الافتراضي.</string>
+    <string name="braille_cell_first_dot_position">- النقطة الأولى: يسار أعلى لوحة المفاتيح.</string>
+    <string name="braille_cell_second_dot_position">- النقطة الثانية: يسار وسط لوحة المفاتيح.</string>
+    <string name="braille_cell_third_dot_position">- النقطة الثالثة: يسار أسفل لوحة المفاتيح.</string>
+    <string name="braille_cell_fourth_dot_position">- النقطة الرابعة: يمين أعلى لوحة المفاتيح.</string>
+    <string name="braille_cell_fifth_dot_position">- النقطة الخامسة: يمين وسط لوحة المفاتيح.</string>
+    <string name="braille_cell_sixth_dot_position">- النقطة السادسة: يمين أسفل لوحة المفاتيح.</string>
+    <string name="braille_cell_feature_1">- هذا النمط هو خيار جيّد لهؤلاء الذين يحبّون الطباعة بيد واحدة وأصبع واحد فقط عبر توصيل نقاط برايل المطلوبة.</string>
+    <string name="braille_cell_feature_2">- يمكنك تغيير موضع بداية النقاط الستة لتبدأ من يمين لوحة المفاتيح وليس اليسار، من الإعدادات المتقدمة.</string>
+    <string name="braille_cell_feature_3">- يمكنك القيام ببعض الإيماءات السريعة وسط الشاشة أو بعيداً عن نقاط برايل.</string>
+    <string name="braille_cell_feature_4">- يمكنك الطباعة باستخدام الأصابع الستة معاً، وسيساعد تغيير موضع نقاط برايل لتبدأ من اليمين لليسار. استخدام أكثر من أصبع يتطلب إيقاف قارىء الشاشة.</string>
+
+    <!-- Perkins layout dialog -->
+    <string name="perkins_layout_dialog_description">هذا النمط سيعرض النقاط الست من نقاط برايل كما هو مُمثل في آلة البيركنز.</string>
+    <string name="perkins_first_dot_position">- النقطة الأولى: يسار أسفل لوحة المفاتيح، بعد النقطة الثانية.</string>
+    <string name="perkins_second_dot_position">- النقطة الثانية: يسار أسفل لوحة المفاتيح، بعد النقطة الثالثة.</string>
+    <string name="perkins_third_dot_position">- النقطة الثالثة: أقصى يسار أسفل لوحة المفاتيح.</string>
+    <string name="perkins_fourth_dot_position">- النقطة الرابعة: يمين أسفل لوحة المفاتيح، بعد النقطة الأولى.</string>
+    <string name="perkins_fifth_dot_position">- النقطة الخامسة: يمين أسفل لوحة المفاتيح، بعد النقطة الرابعة.</string>
+    <string name="perkins_sixth_dot_position">- النقطة السادسة: أقصى يمين أسفل لوحة المفاتيح.</string>
+    <string name="perkins_layout_dialog_extra_text_1">قدر الإمكان، المجموعة الأولى من نقاط برايل ستكون يسار لوحة المفاتيح (٣،٢،١) والمجموعة الثانية ستكون يمين لوحة المفاتيح (٦،٥،٤).</string>
+    <string name="perkins_feature_1">- هذا النمط هو خيار جيّد لهؤلاء الذين يحبون الطباعة باستخدام ستة أصابع في الطباعة كما هو الحال في آلية الطباعة عبر آلة البيركنز (يتطلب إيقاف قارىء الشاشة).</string>
+    <string name="perkins_feature_2">- مصمم ليعمل بشكل جيد على الهواتف الذكية (الوضعية الأفقية) واللوحية بأبعاد سبعة بوصة وأعلى.</string>
+    <string name="perkins_feature_3">- يمكنك الطباعة بأكثر من أصبع واحد، عبر توصيل نقاط برايل معاً.</string>
+    <string name="perkins_feature_4">- هذا النمط يتم استخدامه فقط بشكل رئيسي في الوضعية الأفقية، إذا كان جهازك يملك مساحة وفيرة بالعرض (جهاز لوحي)، يمكنك استخدامه بالوضعية الرأسية.</string>
+    <string name="perkins_feature_5">- يمكنك استخدام الإيماءات إذا كان هناك مساحة فارغة في لوحة المفاتيح بعيداً عن نقاط برايل،غير ذلك يجب عليك تفعيل أزرار أشرطة العمليات.</string>
+    <string name="perkins_feature_6">- يمكنك جعل النقطة رقم إثنان والنقطة رقم خمسة أعلى من النقاط الأخرى لوضعية طباعة أكثر راحة، من شاشة الإعدادات المتقدمة.</string>
+
+    <!-- Two rows layout dialog-->
+    <string name="two_rows_layout_dialog_description">هذا الخيار سيظهر النقاط الست في خطين أفقيين.</string>
+    <string name="two_rows_first_dot_position">- النقطة الأولى: أعلى يمين لوحة المفاتيح، فوق النقطة الرابعة.</string>
+    <string name="two_rows_second_dot_position">- النقطة الثانية: وسط لوحة المفاتيح، أعلى النقطة الخامسة.</string>
+    <string name="two_rows_third_dot_position">- النقطة الثالثة: يسار أعلى لوحة المفاتيح، فوق النقطة السادسة.</string>
+    <string name="two_rows_fourth_dot_position">- النقطة الرابعة: يسار أسفل لوحة المفاتيح، تحت النقطة الثالثة.</string>
+    <string name="two_rows_fifth_dot_position">- النقطة الخامسة: أسفل وسط لوحة المفاتيح، تحت النقطة الثانية.</string>
+    <string name="two_rows_sixth_dot_position">- النقطة السادسة: يمين أسفل لوحة المفاتيح، تحت النقطة الأولى.</string>
+    <string name="two_rows_feature_1">- هذا النمط خيار جيّد للأشخاص الذين يحبون الطباعة باستخدام يد واحدة وثلاث أصابع لتوصيل نقاط برايل المطلوبة معاً.</string>
+    <string name="two_rows_feature_2">- يمكنك الطباعة باستخدام ثلاثة أصابع معاً لتوصيل النقاط أو الضغط عليها، مع التأكد من إيقاف قارىء الشاشة.</string>
+    <string name="two_rows_feature_3">- يمكنك عرض أشرطة العمليات إذا لم تجد مساحة كافية للقيام بالإيماءات.</string>
+
+    <!-- Arabic General Pattern & Math-->
+    <string name="comma_pattern">فاصلة</string>
+    <string name="and_pattern">علامة آند</string>
+    <string name="colon_pattern">نقطتان</string>
+    <string name="exclamation_mark_pattern">علامة تعجب</string>
+    <string name="opening_parenthesis_pattern">قوس مفتوح</string>
+    <string name="closing_parenthesis_pattern">قوس مغلق</string>
+    <string name="double_quotation_pattern">علامة اقتباس</string>
+    <string name="dot_pattern">نقطة</string>
+    <string name="decimal_dot_pattern">فاصلة عشرية</string>
+    <string name="semicolon_pattern">فاصلة منقوطة</string>
+    <string name="question_mark_pattern">علامة استفهام</string>
+    <string name="percent_pattern">بالمئة</string>
+    <string name="slash_pattern">خط مائل للأمام</string>
+    <string name="back_slash_pattern">خط مائل للخلف</string>
+    <string name="hash_pattern">هاش</string>
+    <string name="equals_pattern">يساوي</string>
+    <string name="plus_pattern">زائد</string>
+    <string name="minus_pattern">ناقص</string>
+    <string name="multiply_pattern">ضرب</string>
+    <string name="asterisk_pattern">نجمة</string>
+    <string name="divided_by_pattern">قسمة</string>
+    <string name="at_pattern">علامة آت</string>
+    <string name="apostrophe_pattern">فاصلة عليا</string>
+    <string name="underscore_pattern">شرطة سفلية</string>
+    <string name="greater_than_pattern">أكبر من</string>
+    <string name="right_arrowhead_pattern">رأس سهم لليمين</string>
+    <string name="less_than_pattern">أصغر من</string>
+    <string name="left_arrowhead_pattern">رأس سهم لليسار</string>
+
+    <!-- Keyboards and languages -->
+    <string name="english_small_letters_keyboard">لوحة مفاتيح حروف اللغة الإنجليزية الصغيرة</string>
+    <string name="spanish_small_letters_keyboard">لوحة مفاتيح حروف اللغة الإسبانية الصغيرة</string>
+    <string name="french_small_letters_keyboard">لوحة مفاتيح حروف اللغة الفرنسية الصغيرة</string>
+    <string name="english_capital_letters_keyboard">لوحة مفاتيح حروف اللغة الإنجليزية الكبيرة</string>
+    <string name="spanish_capital_letters_keyboard">لوحة مفاتيح اللغة الإسبانية الكبيرة</string>
+    <string name="french_capital_letters_keyboard">لوحة مفاتيح حروف اللغة الفرنسية الكبيرة</string>
+    <string name="arabic_letters_keyboard">لوحة مفاتيح حروف اللغة العربية</string>
+    <string name="arabic_punc_letters_keyboard">لوحة مفاتيح علامات التشكيل العربية</string>
+    <string name="english_current_language">لوحة المفاتيح الإنجليزية</string>
+    <string name="arabic_current_language">لوحة المفاتيح العربية</string>
+    <string name="spanish_current_language">لوحة المفاتيح الإسبانية</string>
+    <string name="french_current_language">لوحة المفاتيح الفرنسية</string>
+    <string name="math_symbols_keyboard">لوحة مفاتيح الرموز الرياضية</string>
+    <string name="special_symbols_keyboard">لوحة مفاتيح الرموز الخاصة</string>
+    <string name="numbers_keyboard">لوحة مفاتيح الأرقام</string>
+    <string name="keyboard_type_up">لوحة المفاتيح السابقة</string>
+    <string name="keyboard_type_down">لوحة المفاتيح التالية</string>
+</resources>

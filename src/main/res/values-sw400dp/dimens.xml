@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Color Picker-->
+    <dimen name="colorpickerview__dialog_preview_width">70dp</dimen>
+    <dimen name="colorpickerview__dialog_preview_height">40dp</dimen>
+
+    <!--Operations bars and buttons -->
+    <dimen name="operations_btns_margin">10dp</dimen>
+</resources>

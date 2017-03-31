@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/swiftBrailleBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/aboutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/aboutSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/primaryText" />
+
+        <TextView
+            android:id="@+id/appVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version Number"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/secondaryText" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_description"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/secondaryText" />
+
+        <TextView
+            android:id="@+id/providedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/part_of"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/secondaryText" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:contentDescription="@string/facebook_icon"
+                android:onClick="facebookIconAction"
+                android:layout_margin="5dp"
+                android:background="@mipmap/facebook_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <ImageButton
+                android:contentDescription="@string/twitter_icon"
+                android:onClick="twitterIconAction"
+                android:layout_margin="5dp"
+                android:background="@mipmap/twitter_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageButton" />
+
+            <ImageButton
+                android:contentDescription="@string/youtube_icon"
+                android:onClick="youtubeIconAction"
+                android:layout_margin="5dp"
+                android:background="@mipmap/youtube_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <ImageButton
+                android:contentDescription="@string/website_icon"
+                android:onClick="websiteIconAction"
+                android:layout_margin="5dp"
+                android:background="@mipmap/ic_language_green_48dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

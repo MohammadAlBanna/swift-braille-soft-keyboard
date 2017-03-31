@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorAccent"
+    android:layout_width="@dimen/operations_bar_width"
+    android:layout_height="match_parent"
+    android:padding="@dimen/operations_bar_padding">
+
+    <ImageButton
+        android:importantForAccessibility="yes"
+        android:id="@+id/makeKeyboardFullWidth"
+        android:scaleType="fitCenter"
+        android:padding="@dimen/operations_btns_padding"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent"
+        android:src="@mipmap/ic_change_width_100_white_48dp"
+        android:contentDescription="@string/keyboard_full_width" />
+
+    <ImageButton
+        android:importantForAccessibility="yes"
+        android:layout_centerVertical="true"
+        android:tag="right"
+        android:id="@+id/moveKeyboardRightLeft"
+        android:scaleType="fitCenter"
+        android:padding="@dimen/operations_btns_padding"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent"
+        android:src="@mipmap/ic_keyboard_arrow_left_white_48dp"
+        android:contentDescription="@string/move_keyboard_top_left" />
+</RelativeLayout>

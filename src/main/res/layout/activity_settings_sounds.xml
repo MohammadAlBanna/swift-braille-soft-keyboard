@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/swiftBrailleBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sound_over_braille_dot"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <Spinner
+            android:id="@+id/soundOverBrailleDot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tts_engines_item"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <Spinner
+            android:id="@+id/listOfAllTTSs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/general_settings_text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/activateVoiceSoundOnOpsBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activate_voice_sound"
+            android:checked="true" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/talkBackChar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/talk_back_char"
+            android:checked="true" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/playAlwaysStoredVoices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/play_always_stored_voices"
+            android:checked="false" />
+
+        <CheckBox
+            android:textColor="@color/secondaryText"
+            android:id="@+id/readTextAfterCloseKeyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/read_written_text"
+            android:checked="false" />
+
+        <!-- Reset settings button -->
+        <Button
+            style="@style/btnStyle.redBtn"
+            android:layout_marginTop="30dp"
+            android:onClick="onResetSettingsBtnAction"
+            android:id="@+id/resetSettingsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_settings"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>

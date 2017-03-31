@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/operations_bar_height"
+    android:background="@color/colorAccent"
+    android:padding="@dimen/operations_bar_padding"
+    android:layoutDirection="ltr"
+    tools:targetApi="jelly_bean_mr1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:id="@+id/copyButton"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/operations_btns_padding"
+            android:layout_marginRight="@dimen/operations_btns_margin"
+            android:layout_marginEnd="@dimen/operations_btns_margin"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:background="@color/colorAccent"
+            android:src="@mipmap/ic_content_copy_white_48dp"
+            android:contentDescription="@string/copy_text" />
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:layout_marginRight="@dimen/operations_btns_margin"
+            android:layout_marginEnd="@dimen/operations_btns_margin"
+            android:id="@+id/pasteButton"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/operations_btns_padding"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:background="@color/colorAccent"
+            android:src="@mipmap/ic_content_paste_white_48dp"
+            android:contentDescription="@string/paste_text" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/swiftBrailleBG" />
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:id="@+id/removeLastWordButton"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/operations_btns_padding"
+            android:layout_marginLeft="@dimen/operations_btns_margin"
+            android:layout_marginStart="@dimen/operations_btns_margin"
+            android:layout_marginRight="@dimen/operations_btns_margin"
+            android:layout_marginEnd="@dimen/operations_btns_margin"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:background="@color/colorAccent"
+            android:src="@mipmap/ic_delete_white_48dp"
+            android:contentDescription="@string/remove_last_word" />
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:id="@+id/removeFullTextButton"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/operations_btns_padding"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:background="@color/colorAccent"
+            android:src="@mipmap/ic_delete_sweep_white_48dp"
+            android:contentDescription="@string/remove_all_text" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:id="@+id/changeKeyboardTypeUpButton"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/operations_btns_padding"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:background="@color/colorAccent"
+            android:src="@mipmap/ic_keyboard_arrow_up_white_48dp"
+            android:contentDescription="@string/keyboard_type_up" />
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:layout_marginRight="@dimen/operations_btns_margin"
+            android:layout_marginEnd="@dimen/operations_btns_margin"
+            android:id="@+id/changeKeyboardTypeDownButton"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/operations_btns_padding"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:background="@color/colorAccent"
+            android:src="@mipmap/ic_keyboard_arrow_down_white_48dp"
+            android:contentDescription="@string/keyboard_type_down" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/swiftBrailleBG" />
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:layout_marginLeft="@dimen/operations_btns_margin"
+            android:layout_marginStart="@dimen/operations_btns_margin"
+            android:id="@+id/changeKeyboardLanguageButton"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/operations_btns_padding"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:background="@color/colorAccent"
+            android:src="@mipmap/ic_language_white_48dp"
+            android:contentDescription="@string/change_keyboard_language" />
+    </LinearLayout>
+</RelativeLayout>

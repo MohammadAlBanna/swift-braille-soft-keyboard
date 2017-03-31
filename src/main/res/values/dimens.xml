@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="free_area_padding">8dp</dimen>
+
+    <!-- Gesture min distance-->
+    <dimen name="min_dist_gesture">10dp</dimen>
+    <dimen name="min_dist_special_short_move">20dp</dimen>
+    <dimen name="min_dis_special_long_move">100dp</dimen>
+
+    <!-- Braille dots -->
+    <dimen name="min_dot_radius">20dp</dimen>
+    <dimen name="braille_dot_stroke">3dp</dimen>
+    <dimen name="braille_dot_margin">5dp</dimen>
+    <dimen name="braille_cell_free_area">60dp</dimen>
+
+    <!-- Color Picker -->
+    <dimen name="colorpickerview__required_padding">6dp</dimen>
+    <dimen name="colorpickerview__dialog_preview_width">65dp</dimen>
+    <dimen name="colorpickerview__dialog_preview_height">32dp</dimen>
+
+    <!--Operations bars and buttons -->
+    <dimen name="operations_bar_padding">5dp</dimen>
+    <dimen name="operations_bar_height">45dp</dimen>
+    <dimen name="operations_bar_width">45dp</dimen>
+    <dimen name="operations_btns_margin">5dp</dimen>
+    <dimen name="operations_btns_padding">2dp</dimen>
+    <dimen name="operations_btns_width">36dp</dimen>
+    <dimen name="operations_btns_height">36dp</dimen>
+</resources>

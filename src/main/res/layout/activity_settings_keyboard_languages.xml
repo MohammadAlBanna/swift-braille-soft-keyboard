@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/swiftBrailleBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/caution"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorRed" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/keyboard_language_caution"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/secondaryText" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_keyboard_language"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimary" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <Spinner
+            android:id="@+id/defaultKeyboardLanguageSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/active_input_methods"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimary" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <CheckBox
+            android:gravity="center"
+            android:tag="0"
+            android:id="@+id/englishLanguage"
+            android:checked="true"
+            android:textColor="@color/secondaryText"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/english_language_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:gravity="center"
+            android:tag="1"
+            android:id="@+id/arabicLanguage"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/secondaryText"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/arabic_language_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:gravity="center"
+            android:tag="2"
+            android:id="@+id/spanishLanguage"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/secondaryText"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/spanish_language_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:gravity="center"
+            android:tag="3"
+            android:id="@+id/frenchLanguage"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/secondaryText"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/french_language_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+</ScrollView>

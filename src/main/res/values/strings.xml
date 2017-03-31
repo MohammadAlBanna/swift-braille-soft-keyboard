@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main things-->
+    <string name="app_name">SwiftBraille</string>
+    <string name="app_description" translatable="false">Connect the dots!</string>
+    <string name="not_braille_code">This is not a Braille code!</string>
+    <string name="app_keyboard_description">SwiftBraille keyboard</string>
+    <string name="version">Version %1$s</string>
+    <string name="loading_text">Loading&#8230;</string>
+    <string name="reset_settings">Reset all settings</string>
+    <string name="caution">Caution</string>
+    <string name="more_details">More details</string>
+    <string name="general_settings_text">General settings</string>
+    <string name="braille_dots_positions">Braille dots positions</string>
+    <string name="features">Features</string>
+    <string name="got_it">Got it</string>
+    <string name="settings_title">SwiftBraille settings</string>
+    <string name="reset_settings_done">Settings have been reset</string>
+    <string name="app_shows_en_keyboard">Swift Braille shows English keyboard</string>
+    <string name="app_shows_ar_keyboard">Swift Braille shows Arabic keyboard</string>
+    <string name="app_shows_es_keyboard">Swift Braille shows Spanish keyboard</string>
+    <string name="app_shows_fr_keyboard">Swift Braille shows French keyboard</string>
+    <string name="app_is_hidden">Swift Braille keyboard is hidden now</string>
+    <string name="app_final_text">and the final text is</string>
+    <string name="multi_touch_device_support">Great! Your device supports multi-touch with six fingers.</string>
+    <string name="multi_touch_device_not_support">Hmm..your device does not support multi-touch with six fingers!</string>
+    <string name="coming_soon_title">Coming soon</string>
+    <string name="special_tools_coming_soon">This section is under development.</string>
+
+    <!-- Main screen activity -->
+    <string name="swift_braille_is_default_keyboard">High five! SwiftBraille is the default keyboard!</string>
+    <string name="swift_braille_is_not_default_keyboard_text">Ooh no! SwiftBraille is not the default keyboard!</string>
+    <string name="activate_btn">1. Activate</string>
+    <string name="set_default_btn">2. Set default</string>
+    <string name="customize_btn">3. Customize</string>
+    <string name="training_input_title">Type anything?</string>
+    <string name="training_input_hint">Write something…</string>
+
+    <!-- About activity -->
+    <string name="about_description">Swift Braille is a soft keyboard customized for blind and visually impaired to let them type using Braille language, by connecting Braille dots or tap over them. You can type letters, numbers, math symobls, and other special symbols (refer to the blog for more details). Developed by Mohammad M. AlBanna</string>
+    <string name="part_of">Part of MBanna.info projects</string>
+    <string name="facebook_icon">Swift Braille on Facebook</string>
+    <string name="twitter_icon">Swift Braille on Twitter</string>
+    <string name="youtube_icon">Swift Braille on YouTube</string>
+    <string name="website_icon">Website of Swift Braille</string>
+
+    <!-- Advanced activity -->
+    <string name="activate_gesture">Activate gestures</string>
+    <string name="operation_bars_text">Show operations bars</string>
+    <string name="vibration_on_dot_tap">Vibration on tap over Braille dots</string>
+    <string name="capitalize_first_word">Capitalize first character of the sentence</string>
+    <string name="start_braille_dots_from_right">Start Braille dots from the right of screen</string>
+    <string name="new_line_hides_keyboard">Hide the keyboard when I type a new line (single line inputs text)</string>
+    <string name="prevent_rotation">Prevent screen rotation when the keyboard is opened</string>
+    <string name="moves_over_dots_description">Consider the dot after I stop over it within</string>
+    <string name="get_selected_dots_description">Recognize selected dots after</string>
+    <string name="stop_one_second">After stop one second</string>
+    <string name="stop_half_second">After stop half a second</string>
+    <string name="after_half_second">After half a second</string>
+    <string name="no_stop_when_hover">When I move over it</string>
+    <string name="no_period_selected_dots">Once all fingers left the screen</string>
+    <string name="after_one_second">After one second</string>
+    <string name="after_two_seconds">After two seconds</string>
+    <string name="after_one_and_half_second">After one and half a second</string>
+    <string name="milliseconds">%1$d ms</string>
+    <string name="gestures_and_ops_bars_inactivated">Gestures and operations bars are inactivated! You will not be able to change keyboard languages or types!</string>
+    <string name="make_dot_2_5_higher">Let dots two and five higher than other dots</string>
+
+    <!-- Dots layout activity and layout -->
+    <string name="caution_dots_layout_1">Changing Braille dots layout might change the default settings and show or hide others.</string>
+    <string name="braille_cell_layout">Braille cell layout</string>
+    <string name="braille_cell_layout_description">Show the six of Braille dots like they are represented in a Braille cell.</string>
+    <string name="braille_cell_layout_selected">Braille cell layout is selected</string>
+    <string name="braille_cell_layout_not_selected">Braille cell layout is not selected</string>
+    <string name="perkins_layout">Perkins layout</string>
+    <string name="perkins_layout_description">Show the six of Braille dots in one line and type as Perkins machine does.</string>
+    <string name="perkins_layout_selected">Perkins layout is selected</string>
+    <string name="perkins_layout_not_selected">Perkins layout is not selected</string>
+    <string name="two_rows_layout">Two horizontal layout</string>
+    <string name="two_rows_layout_description">Show the six of Braille dots in two lines horizontally at the bottom of the keyboard.</string>
+    <string name="two_rows_layout_selected">Two horizontal layout is selected</string>
+    <string name="two_rows_layout_not_selected">Two horizontal rows layout is not selected</string>
+
+    <!-- Dots style activity and layout-->
+    <string name="current_selected_color">Current selected color</string>
+    <string name="previous_selected_color">Previous selected color</string>
+    <string name="color_picker_fill_dot_title">Choose dots fill color</string>
+    <string name="color_picker_stroke_dot_title">Choose dots stroke color</string>
+    <string name="dot_fill_color">Dot fill color</string>
+    <string name="dot_fill_color_description">Change Braille dots fill color</string>
+    <string name="dot_stroke_color">Dot stroke color</string>
+    <string name="dot_stroke_color_description">Change Braille dots stroke color</string>
+    <string name="dot_radius">Dot radius</string>
+    <string name="keyboard_portrait_height">In portrait mode:</string>
+    <string name="keyboard_landscape_height">In landscape mode:</string>
+    <string name="fill_dot_on_touch">Fill dots on tap or hover</string>
+    <string name="view_braille_dot_number_text">Show Braille dots number</string>
+    <string name="color_picker_select_color">OK</string>
+    <string name="keyboard_right_position">Start the keyboard from the right of the screen</string>
+
+    <!-- Keyboard dimension activity and layout -->
+    <string name="keyboard_dimensions">Keyboard dimensions</string>
+    <string name="keyboard_height">Keyboard height</string>
+    <string name="keyboard_width">Keyboard width</string>
+    <string name="will_change_radius">Changing these settings will change the dots radius!</string>
+
+    <!-- Keyboard languages activity and layout-->
+    <string name="keyboard_language_caution">Changing active input methods languages might change the default keyboard language, show, or hide other settings.</string>
+    <string name="one_lang_must_selected">At least one language must be selected!</string>
+    <string name="active_input_methods">Active input methods</string>
+    <string name="english_language_method" translatable="false">English</string>
+    <string name="arabic_language_method" translatable="false">العربية</string>
+    <string name="spanish_language_method" translatable="false">Español</string>
+    <string name="french_language_method" translatable="false">Français</string>
+
+    <!-- Settings activity and layout -->
+    <string name="dots_layout">Dots layout</string>
+    <string name="dot_style">Dots style</string>
+    <string name="keyboard_languages">Keyboard languages</string>
+    <string name="default_keyboard_language">Default keyboard languages</string>
+    <string name="sounds_item">Sounds</string>
+    <string name="advanced_item">Advanced settings</string>
+    <string name="special_tools_item">Special items</string>
+    <string name="about_title">About</string>
+
+    <!-- Sounds activity and layout -->
+    <string name="sound_over_braille_dot">Dot sound</string>
+    <string name="tts_engines_item">Text to speech engines</string>
+    <string name="activate_voice_sound">Activate voice input</string>
+    <string name="talk_back_char">Use TTS to talk back each typed character or word</string>
+    <string name="play_always_stored_voices">Play always stored voices (Arabic language)</string>
+    <string name="read_written_text">Read the written text after I close the keyboard</string>
+    <string name="no_braille_dot_sound">None</string>
+    <string name="tick_braille_dot_sound">Tick sound</string>
+    <string name="dorime_braille_dot_sound">Do Ri Me… sound</string>
+    <string name="number_braille_dot_sound">Dot number sound</string>
+    <string name="ops_bars_off_for_voice_input">It seems operations bars are inactivated, please activate them to use this feature correctly!</string>
+
+    <!-- Menus and Operations bars -->
+    <string name="hide_keyboard">Hide keyboard</string>
+    <string name="space">Space</string>
+    <string name="new_line">New line</string>
+    <string name="back_space">%1$s deleted</string>
+    <string name="full_text_deletion">All text has been removed</string>
+    <string name="word_deletion">The word %1$s has been removed</string>
+    <string name="change_keyboard_language">Change keyboard language</string>
+    <string name="change_keyboard_pattern">Change keyboard type</string>
+    <string name="texts">Texts </string>
+    <string name="voice_input">Voice Input</string>
+    <string name="copy_text">Copy </string>
+    <string name="paste_text">Paste</string>
+    <string name="remove_last_char">Backspace</string>
+    <string name="remove_last_word">Remove last word</string>
+    <string name="remove_all_text">Remove all text</string>
+    <string name="text_copied">Text copied</string>
+    <string name="text_pasted">Text pasted</string>
+    <string name="swiftbraille_store_link" translatable="false">https://play.google.com/store/apps/details?id=com.mbanna.swiftbraille</string>
+    <string name="how_to_link">http://en.swiftbraille.com/blog/how-to/?utm_source=SwiftBrailleApp</string>
+    <string name="join_testing_program_link" translatable="false">https://play.google.com/apps/testing/com.mbanna.swiftbraille</string>
+    <string name="under_testing_link">http://en.swiftbraille.com/blog/under-testing/?utm_source=SwiftBrailleApp</string>
+    <string name="swiftbraille_share_text">Share SwiftBraille link&#8230;</string>
+    <string name="how_to_item">How to use</string>
+    <string name="about_item">About</string>
+    <string name="share_item">Share</string>
+    <string name="licence_item">Licence</string>
+    <string name="licence_link">http://en.swiftbraille.com/blog/licence/?utm_source=SwiftBrailleApp</string>
+    <string name="privacy_policy_item">Privacy policy</string>
+    <string name="privacy_policy_link">http://en.swiftbraille.com/blog/privacy-policy/?utm_source=SwiftBrailleApp</string>
+    <string name="whats_new_item">What\'s new</string>
+    <string name="whats_new_link">http://en.swiftbraille.com/blog/logs/?utm_source=SwiftBrailleApp</string>
+    <string name="join_testing_program">Join testing program</string>
+    <string name="move_keyboard_top_left">Move the keyboard to the left of the screen</string>
+    <string name="move_keyboard_top_right">Move the keyboard to the right of the screen</string>
+    <string name="keyboard_full_width">Keyboard full width</string>
+    <string name="keyboard_is_top_left">The keyboard now is in the top left of the screen</string>
+    <string name="keyboard_is_top_right">The keyboard now is in the top right of the screen</string>
+    <string name="keyboard_is_full_width">The keyboard now is in full width of the screen</string>
+
+    <!-- Braille cell layout dialog -->
+    <string name="braille_cell_layout_dialog_description">This layout will show the six dots of Braille as they are represented in Braille cell, and this is the default layout.</string>
+    <string name="braille_cell_first_dot_position">- First dot: Left top of the keyboard.</string>
+    <string name="braille_cell_second_dot_position">- Second dot: Left center of the keyboard.</string>
+    <string name="braille_cell_third_dot_position">- Third dot: Left bottom of the keyboard.</string>
+    <string name="braille_cell_fourth_dot_position">- Fourth dot: Right top of the keyboard.</string>
+    <string name="braille_cell_fifth_dot_position">- Fifth dot: Right center of the keyboard.</string>
+    <string name="braille_cell_sixth_dot_position">- Sixth dot: Right center of the keyboard.</string>
+    <string name="braille_cell_feature_1">- This layout is a good choice for those who love typing in one hand and one finger by connecting the needed dots together.</string>
+    <string name="braille_cell_feature_2">- You can change the start position of Braille dots to be started from the right of the keyboard, from advanced settings screen.</string>
+    <string name="braille_cell_feature_3">- You can use gestures in the middle of the screen, outside the dots.</string>
+    <string name="braille_cell_feature_4">- You can type using the six fingers, if you reversed the Braille dots to start from the right of the keyboard. Make sure from screen reader to be off to use multi-touch correctly.</string>
+
+    <!-- Perkins layout dialog -->
+    <string name="perkins_layout_dialog_description">This layout will show the six dots of Braille as they are represented in Perkins machine.</string>
+    <string name="perkins_first_dot_position">- First dot: Left bottom of the screen, after the second dot.</string>
+    <string name="perkins_second_dot_position">- Second dot: Left bottom of the keyboard, after the third dot.</string>
+    <string name="perkins_third_dot_position">- Third dot: Left bottom of the keyboard.</string>
+    <string name="perkins_fourth_dot_position">- Fourth dot: Right bottom of the keyboard, after the first dot.</string>
+    <string name="perkins_fifth_dot_position">- Fifth dot: Right bottom of the keyboard, after the fourth dot.</string>
+    <string name="perkins_sixth_dot_position">- Sixth dot: Right bottom of the keyboard.</string>
+    <string name="perkins_layout_dialog_extra_text_1">As possible, the first group of the Braille dots will be in the left of the keyboard (1,2,3) and the second group will be in the right of the keyboard (4,5,6).</string>
+    <string name="perkins_feature_1">- This layout is a good choice for those who love typing using the six fingers as Perkins machine does (requires screen reader to be off).</string>
+    <string name="perkins_feature_2">- Designed for smart phones (landscape mode) and tablets with seven inches or higher in dimensions.</string>
+    <string name="perkins_feature_3">- You can type using more than one finger to connect needed Braille dots together.</string>
+    <string name="perkins_feature_4">- You can use this layout mainly in landscape, if your device has plenty width (tablets), you can use it in portrait as well.</string>
+    <string name="perkins_feature_5">- You can use gestures if you have a free space in the keyboard outside Braille dots, otherwise you need to activate operations bars buttons.</string>
+    <string name="perkins_feature_6">- You can let the dot number two and five higher than other dots for more comfortable typing, from advanced settings.</string>
+
+    <!-- Two rows layout dialog-->
+    <string name="two_rows_layout_dialog_description">This layout will show the six dots of Braille in two lines horizontally.</string>
+    <string name="two_rows_first_dot_position">- First dot: Top right of the keyboard, above the fourth dot.</string>
+    <string name="two_rows_second_dot_position">- Second dot: Center of the keyboard, above the fifth dot.</string>
+    <string name="two_rows_third_dot_position">- Third dot: Left top of the keyboard, above the sixth dot.</string>
+    <string name="two_rows_fourth_dot_position">- Fourth dot: Left bottom of the keyboard, below of the third dot.</string>
+    <string name="two_rows_fifth_dot_position">- Fifth dot: Bottom center of the keyboard, below of the second dot.</string>
+    <string name="two_rows_sixth_dot_position">- Sixth dot: Right bottom of the keyboard, below of the first dot.</string>
+    <string name="two_rows_feature_1">- This layout is a good choice for those who love typing in one hand and three fingers by connecting the needed dots together.</string>
+    <string name="two_rows_feature_2">- You can type using the three fingers together to type or connecting needed dots, and make sure from screen reader to be off.</string>
+    <string name="two_rows_feature_3">- You can show the operations bars if there is no space to make gestures.</string>
+
+    <!-- English General Pattern & Math-->
+    <string name="comma_pattern">Comma</string>
+    <string name="and_pattern">Ampersand</string>
+    <string name="colon_pattern">Colon</string>
+    <string name="exclamation_mark_pattern">Exclamation mark</string>
+    <string name="opening_parenthesis_pattern">Opening parenthesis</string>
+    <string name="closing_parenthesis_pattern">Closing parenthesis</string>
+    <string name="double_quotation_pattern">Double quotation</string>
+    <string name="dot_pattern">Full stop</string>
+    <string name="decimal_dot_pattern">Decimal point</string>
+    <string name="semicolon_pattern">Semicolon</string>
+    <string name="question_mark_pattern">Question mark</string>
+    <string name="percent_pattern">Percent</string>
+    <string name="slash_pattern">Slash</string>
+    <string name="back_slash_pattern">Backslash</string>
+    <string name="hash_pattern">Hash</string>
+    <string name="equals_pattern">Equals</string>
+    <string name="plus_pattern">Plus</string>
+    <string name="minus_pattern">Minus</string>
+    <string name="multiply_pattern">Multiply</string>
+    <string name="asterisk_pattern">Asterisk</string>
+    <string name="divided_by_pattern">Divided by</string>
+    <string name="at_pattern">At</string>
+    <string name="apostrophe_pattern">Apostrophe</string>
+    <string name="underscore_pattern">Underscore</string>
+    <string name="greater_than_pattern">Greater than</string>
+    <string name="right_arrowhead_pattern">Right arrowhead</string>
+    <string name="less_than_pattern">Less than</string>
+    <string name="left_arrowhead_pattern">Left arrowhead</string>
+
+    <!-- Keyboards and languages -->
+    <string name="english_small_letters_keyboard">English small letters keyboard</string>
+    <string name="spanish_small_letters_keyboard">Spanish small letters keyboard</string>
+    <string name="french_small_letters_keyboard">French small letters keyboard</string>
+    <string name="english_capital_letters_keyboard">English capital letters keyboard</string>
+    <string name="spanish_capital_letters_keyboard">Spanish capital letters keyboard</string>
+    <string name="french_capital_letters_keyboard">French capital letters keyboard</string>
+    <string name="arabic_letters_keyboard">Arabic letters keyboard</string>
+    <string name="arabic_punc_letters_keyboard">Arabic punctuations keyboard</string>
+    <string name="math_symbols_keyboard">Math symbols keyboard</string>
+    <string name="special_symbols_keyboard">Special symbols keyboard</string>
+    <string name="numbers_keyboard">Numbers keyboard</string>
+    <string name="english_current_language">English input keyboard</string>
+    <string name="arabic_current_language">Arabic input keyboard</string>
+    <string name="spanish_current_language">Spanish input keyboard</string>
+    <string name="french_current_language">French input keyboard</string>
+    <string name="keyboard_type_up">Previous keyboard type</string>
+    <string name="keyboard_type_down">Next keyboard type</string>
+    <string name="in_uppercase" translatable="false">Capital</string>
+
+    <!-- Punctuation in Arabic-->
+    <string name="ar_pattern_2" translatable="false">علامة الفتحة</string>
+    <string name="ar_pattern_1_3_6" translatable="false">علامة الضمة</string>
+    <string name="ar_pattern_1_5" translatable="false">علامة الكسرة</string>
+    <string name="ar_pattern_2_5" translatable="false">علامة السكون</string>
+    <string name="ar_pattern_6" translatable="false">علامة الشدة</string>
+    <string name="ar_pattern_2_6" translatable="false">علامة تنوين الضم</string>
+    <string name="ar_pattern_3_5" translatable="false">علامة تنوين الكسر</string>
+    <string name="ar_pattern_2_3" translatable="false">علامة تنوين الفتح</string>
+
+    <!--Punctuation in Spanish -->
+    <string name="es_open_exclamation" translatable="false">Abrir exclamación</string>
+    <string name="es_close_exclamation" translatable="false">cerrar exclamación</string>
+    <string name="es_open_question" translatable="false">Abrir interrogación</string>
+    <string name="es_close_question" translatable="false">cerrar interrogación</string>
+</resources>

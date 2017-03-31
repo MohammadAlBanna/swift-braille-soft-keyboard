@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/operations_bar_width"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:layoutDirection="ltr"
+    android:padding="@dimen/operations_bar_padding"
+    tools:targetApi="jelly_bean_mr1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:rotation="90"
+            android:id="@+id/closeKeyboardButton"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:layout_marginEnd="@dimen/operations_btns_margin"
+            android:layout_marginRight="@dimen/operations_btns_margin"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/operations_btns_padding"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_keyboard_hide_white_48dp"
+            android:contentDescription="@string/hide_keyboard" />
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:rotation="90"
+            android:id="@+id/newLineButton"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/operations_btns_padding"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_keyboard_return_white_48dp"
+            android:contentDescription="@string/new_line" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:rotation="90"
+            android:layout_marginRight="@dimen/operations_btns_margin"
+            android:layout_marginEnd="@dimen/operations_btns_margin"
+            android:id="@+id/voiceInputButton"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/operations_btns_padding"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_keyboard_voice_white_48dp"
+            android:contentDescription="@string/voice_input" />
+
+        <View
+            android:id="@+id/voiceInputSeparator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/swiftBrailleBG" />
+
+        <ImageButton
+            android:importantForAccessibility="yes"
+            android:rotation="90"
+            android:id="@+id/spaceCharButton"
+            android:layout_width="@dimen/operations_btns_width"
+            android:layout_height="@dimen/operations_btns_height"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/operations_btns_padding"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_space_bar_white_48dp"
+            android:contentDescription="@string/space" />
+    </LinearLayout>
+
+    <ImageButton
+        android:importantForAccessibility="yes"
+        android:rotation="90"
+        android:id="@+id/backspaceButton"
+        android:layout_width="@dimen/operations_btns_width"
+        android:layout_height="@dimen/operations_btns_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:padding="@dimen/operations_btns_padding"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_backspace_white_48dp"
+        android:contentDescription="@string/remove_last_char" />
+</RelativeLayout>

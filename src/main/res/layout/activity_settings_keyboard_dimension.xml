@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/swiftBrailleBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/caution"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorRed" />
+
+        <!-- Separator -->
+        <include layout="@layout/title_separator" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/will_change_radius"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/secondaryText" />
+
+        <!-- Keyboard height container -->
+        <LinearLayout
+            android:id="@+id/keyboardHeightContainer"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keyboard_height"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorPrimary" />
+
+            <!-- Separator -->
+            <include layout="@layout/title_separator" />
+
+            <LinearLayout
+                android:id="@+id/keyboardPortraitHeightContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/keyboard_portrait_height"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/secondaryText" />
+
+                <Spinner
+                    android:id="@+id/keyboardPortraitHeight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/keyboard_landscape_height"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/secondaryText" />
+
+                <Spinner
+                    android:id="@+id/keyboardLandscapeHeight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Keyboard width container -->
+        <LinearLayout
+            android:id="@+id/keyboardWidthContainer"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keyboard_width"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorPrimary" />
+
+            <!-- Separator -->
+            <include layout="@layout/title_separator" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/keyboard_portrait_height"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/secondaryText" />
+
+                <Spinner
+                    android:id="@+id/keyboardPortraitWidth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/keyboard_landscape_height"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/secondaryText" />
+
+                <Spinner
+                    android:id="@+id/keyboardLandscapeWidth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <CheckBox
+                android:checked="true"
+                android:id="@+id/startKeyboardFromRight"
+                android:textColor="@color/secondaryText"
+                android:layout_marginTop="5dp"
+                android:text="@string/keyboard_right_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Reset settings button -->
+        <Button
+            style="@style/btnStyle.redBtn"
+            android:layout_marginTop="30dp"
+            android:onClick="onResetSettingsBtnAction"
+            android:id="@+id/resetSettingsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_settings"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>

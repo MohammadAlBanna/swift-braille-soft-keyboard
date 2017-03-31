@@ -1,0 +1,11 @@
+– New Braille dots layout will be available to make the user puts the dots, besides the other three layouts, with connect the dots concept.
+– Support Braille grade 2 (supported languages will be shared soon).
+– How to use screen will be implemented about how to use Swift Braille keyboard.
+– The ability to move dots 2 and 5 from the edges in Braille cell layout.
+– The ability to turn off talk back each written letter/character/numbers from settings screen.
+– Help screen of what you can type on the current keyboard.
+– Other fixes and improvements.
+
+Details on:
+http://en.swiftbraille.com/blog/under-testing/
+http://ar.swiftbraille.com/blog/under-testing/

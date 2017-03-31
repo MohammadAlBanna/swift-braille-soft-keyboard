@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main things-->
+    <string name="app_name">SwiftBraille</string>
+    <string name="not_braille_code">Ce n\'est pas un caractère Braille!</string>
+    <string name="app_keyboard_description">Clavier SwiftBraille</string>
+    <string name="version">Version %1$s</string>
+    <string name="loading_text">Chargement&#8230;</string>
+    <string name="reset_settings">Réinitialiser tous les paramètres</string>
+    <string name="caution">Caution</string>
+    <string name="more_details">Plus de détails</string>
+    <string name="general_settings_text">Paramètres généraux</string>
+    <string name="braille_dots_positions">Position des points Braille</string>
+    <string name="features">Caractéristiques</string>
+    <string name="got_it">C"est claire</string>
+    <string name="settings_title">Paramètres SwiftBraille</string>
+    <string name="reset_settings_done">Les paramètres ont été réinitialisés</string>
+    <string name="app_shows_en_keyboard">Swift Braille affiche le clavier anglais</string>
+    <string name="app_shows_ar_keyboard">Swift Braille affiche le clavier arabe</string>
+    <string name="app_shows_es_keyboard">Swift Braille affiche le clavier espagnol</string>
+    <string name="app_shows_fr_keyboard">Swift Braille affiche le clavier français</string>
+    <string name="app_is_hidden">Le clavier Swift Braille est actuellement masqué </string>
+    <string name="app_final_text">Et le texte final est</string>
+    <string name="multi_touch_device_support">Génial! Votre appareil prend en charge multi-touch avec six doigts.</string>
+    <string name="multi_touch_device_not_support">Désolé..votre appareil ne supporte pas le multi-touch avec six doigts!</string>
+    <string name="coming_soon_title">Arrive bientôt</string>
+    <string name="special_tools_coming_soon">Cette section est en cours de développement..</string>
+
+    <!-- Main screen activity -->
+    <string name="swift_braille_is_default_keyboard">SwiftBraille est le clavier par défaut!!</string>
+    <string name="swift_braille_is_not_default_keyboard_text">Ooh non! SwiftBraille n\'est pas le clavier par défaut!</string>
+    <string name="activate_btn">1. Activer</string>
+    <string name="set_default_btn">2. Définir par defaut</string>
+    <string name="customize_btn">3. Personnaliser</string>
+    <string name="training_input_title">Saisir quelque chose?</string>
+    <string name="training_input_hint">Saisir quelque chose…</string>
+
+    <!-- About activity -->
+    <string name="about_description">Swift Braille est un clavier virtuel personnalisé pour les aveugles et les malvoyants pour les laisser écrir utilisant la méthode Braille, en reliant les points Braille ou appuyez sur eux. Vous pouvez taper des lettres, des chiffres, des symboles mathématiques, et d""autres symboles spéciaux (veuillez visiter le blog pour plus de détails). Développé par Mohammad M. AlBanna</string>
+	<string name="part_of">Fait partie des projets MBanna.info</string>
+    <string name="facebook_icon">Swift Braille sur Facebook</string>
+    <string name="twitter_icon">Swift Braille sur Twitter</string>
+    <string name="youtube_icon">Swift Braille sur YouTube</string>
+    <string name="website_icon">SiteWeb de Swift Braille</string>
+
+    <!-- Advanced activity -->
+    <string name="activate_gesture">Activer les gestes</string>
+    <string name="operation_bars_text">Afficher les barres d\'options</string>
+    <string name="vibration_on_dot_tap">Vibration lors de l\'appui sur les points Braille</string>
+    <string name="capitalize_first_word">Mettre en majuscule le premier caractère de la phrase</string>
+    <string name="start_braille_dots_from_right">Début des points Braille à droite de l\'écran</string>
+    <string name="new_line_hides_keyboard">Masquer le clavier lors de la saisie d\'une nouvelle ligne dans un champ texte (ligne simple)</string>
+    <string name="prevent_rotation">Empêcher la rotation de l\'écran lors de l\'affichage du clavier</string>
+    <string name="moves_over_dots_description">Accepter le point après l\'arrêt de son  survol dans un délai de</string>
+    <string name="get_selected_dots_description">Reconnaître les points sélectionnés plutard</string>
+    <string name="stop_one_second">Après un arrêt d\'une seconde</string>
+    <string name="stop_half_second">Après un arrêt d\'une demi-seconde</string>
+    <string name="after_half_second">Après une demi-seconde</string>
+    <string name="no_stop_when_hover">Lors du survol</string>
+    <string name="no_period_selected_dots">Lorsque tous les doigts ne touchent plus l\'écran</string>
+    <string name="after_one_second">Après une seconde</string>
+    <string name="after_two_seconds">Après deux secondes</string>
+    <string name="after_one_and_half_second">Après une seconde et demie</string>
+    <string name="milliseconds">%1$d millisecondes</string>
+    <string name="gestures_and_ops_bars_inactivated">Les gestes et les opérations bars sont inactivé! Vous ne serez pas en mesure de changer la langue du clavier ou écrir!</string>
+    <string name="make_dot_2_5_higher">Laisser les points 2 et 5 plus élevés que d\'autres points</string>
+
+    <!-- Dots layout activity and layout -->
+    <string name="caution_dots_layout_1">Le changement des points Braille peut changer les paramètres par défaut et afficher ou masquer d\'autres.</string>
+	<string name="braille_cell_layout">Mise en page de cellule Braille</string>
+    <string name="braille_cell_layout_description">Afficher les six points Braille comme ils sont représentés dans une cellule Braille.</string>
+    <string name="braille_cell_layout_selected">Disposition de cellule Braille est selectionnée</string>
+    <string name="braille_cell_layout_not_selected">Disposition de cellule Braille n\'est pas sélectionnée</string>
+    <string name="perkins_layout">Disposition Perkins</string>
+    <string name="perkins_layout_description">Afficher les six points Braille sur une seule ligne et écrir que la machine Perkins fait.</string>
+    <string name="perkins_layout_selected">Disposition perkins est sélectionnée</string>
+    <string name="perkins_layout_not_selected">Disposition perkins n\'est pas sélectionée</string>
+    <string name="two_rows_layout">Deux dispositions horizontale</string>
+    <string name="two_rows_layout_description">Afficher les six points Braille en deux lignes horizontalement en bas du clavier.</string>
+    <string name="two_rows_layout_selected">Les Deux dispositions horizontales sont sélectionnées</string>
+    <string name="two_rows_layout_not_selected">Disposition de Deux rangées horizontales n\'est pas sélectionnée</string>
+
+    <!-- Dots style activity and layout-->
+    <string name="current_selected_color">Couleur sélectionnée actuelle</string>
+    <string name="previous_selected_color">Couleur sélectionnée précédente</string>
+    <string name="color_picker_fill_dot_title">Choisir la couleur d\'arrière-plan des points</string>
+    <string name="color_picker_stroke_dot_title">Choisir la couleur d\'avant-plan des points</string>
+    <string name="dot_fill_color">Couleur d\'arrière-plan du point</string>
+    <string name="dot_fill_color_description">Changer la couleur d\'arrière-plan des points Braille</string>
+    <string name="dot_stroke_color">Couleur d\'avant-plan du point</string>
+    <string name="dot_stroke_color_description">Changer la couleur d\'avant-plan des points Braille</string>
+    <string name="dot_radius">Rayon du point</string>
+    <string name="keyboard_portrait_height">En mode portrait:</string>
+    <string name="keyboard_landscape_height">En mode paysage:</string>
+    <string name="fill_dot_on_touch">Changer l\'arrière-plan des points lors de l\'appui ou du survol</string>
+    <string name="view_braille_dot_number_text">Afficher le numéro des points Braille</string>
+    <string name="color_picker_select_color">OK</string>
+    <string name="keyboard_right_position">Démarrer le clavier de la droite de l\'écran</string>
+
+    <!-- Keyboard dimension activity and layout -->
+    <string name="keyboard_dimensions">Dimonsion du clavier</string>
+    <string name="keyboard_height">Hauteur du clavier</string>
+    <string name="keyboard_width">Largeur du clavier</string>
+    <string name="will_change_radius">La modification de ces paramètres va changer le rayon des points!</string>
+
+    <!-- Keyboard languages activity and layout-->
+    <string name="keyboard_language_caution">Changer actifs méthodes d\'entrée des langues peut changer la langue par défaut du clavier, afficher ou masquer d\'autres paramètres.</string>
+	<string name="one_lang_must_selected">Au moins une langue doit être sélectionnée!</string>
+    <string name="active_input_methods">Méthodes d\'entrée actifs</string>
+
+    <!-- Settings activity and layout -->
+    <string name="dots_layout">Disposition des points</string>
+    <string name="dot_style">Style des points</string>
+    <string name="keyboard_languages">langue du clavier</string>
+    <string name="default_keyboard_language">Langue du clavier par defaut</string>
+    <string name="sounds_item">Sons</string>
+    <string name="advanced_item">Parametres avancés</string>
+    <string name="special_tools_item">Objets spéciaux</string>
+    <string name="about_title">A propos de</string>
+
+    <!-- Sounds activity and layout -->
+    <string name="sound_over_braille_dot">Son des points</string>
+    <string name="tts_engines_item">Moteur de synthèse vocale</string>
+    <string name="activate_voice_sound">Activer l\'entrée vocale</string>
+    <string name="talk_back_char">Utiliser tts pour parler de retour   chaque caractère  et mot tapé</string>
+	<string name="play_always_stored_voices">Lancer toujours les voix sauvegardées (langue arabe)</string>
+    <string name="read_written_text">Lire le texte saisi lorsque le clavier est masqué</string>
+    <string name="no_braille_dot_sound">Aucun</string>
+    <string name="tick_braille_dot_sound">Son tick</string>
+    <string name="dorime_braille_dot_sound">Son Do Ri Me…</string>
+	<string name="number_braille_dot_sound">Énonciation du numéro du point</string>
+    <string name="ops_bars_off_for_voice_input">Il semble les opérations bars sont inactivé, please activate them to use this feature correctly!</string>
+
+    <!-- Menus and Operations bars -->
+    <string name="hide_keyboard">Masquer le clavier</string>
+    <string name="space">Espace</string>
+    <string name="new_line">Nouvelle ligne</string>
+    <string name="back_space">%1$s supprimé</string>
+    <string name="full_text_deletion">Le texte entier a été supprimé</string>
+    <string name="word_deletion">Le mot %1$s a été supprimé</string>
+    <string name="change_keyboard_language">Changer la langue du clavier</string>
+    <string name="change_keyboard_pattern">Changer le type de clavier</string>
+    <string name="texts">Textes</string>
+    <string name="voice_input">Entrée vocale</string>
+    <string name="copy_text">Copier</string>
+    <string name="paste_text">Coller</string>
+    <string name="remove_last_char">Retour arrière</string>
+    <string name="remove_last_word">Supprimer le dernier mot</string>
+    <string name="remove_all_text">Supprimer le texte entier</string>
+    <string name="text_copied">Texte copié</string>
+    <string name="text_pasted">Texte collé</string>
+    <string name="swiftbraille_share_text">Lien de partage de SwiftBraille&#8230;</string>
+    <string name="how_to_item">Comment utiliser</string>
+    <string name="about_item">A propos de</string>
+    <string name="share_item">Partager</string>
+    <string name="licence_item">Licence</string>
+	<string name="privacy_policy_item">Politique de confidentialité</string>
+    <string name="whats_new_item">Quoi de neuf</string>
+    <string name="join_testing_program">Rejoindre le programme de test</string>
+    <string name="move_keyboard_top_left">Déplacer le clavier à gauche de l\'écran</string>
+	<string name="move_keyboard_top_right">Déplacer le clavier à droite de l\'écran</string>
+    <string name="keyboard_full_width">Clavier pleine largeur</string>
+    <string name="keyboard_is_top_left">Le clavier est maintenant en haut à gauche de l\'écran</string>
+    <string name="keyboard_is_top_right">Le clavier est maintenant en haut à droite de l\'écran</string>
+    <string name="keyboard_is_full_width">Le clavier est maintenant en pleine largeur de l\'écran</string>
+    <string name="under_testing_link">http://en.swiftbraille.com/blog/under-testing/?utm_source=SwiftBrailleApp</string>
+    <string name="whats_new_link">http://en.swiftbraille.com/blog/logs/?utm_source=SwiftBrailleApp</string>
+    <string name="how_to_link">http://en.swiftbraille.com/blog/how-to/?utm_source=SwiftBrailleApp</string>
+    <string name="licence_link">http://en.swiftbraille.com/blog/licence/?utm_source=SwiftBrailleApp</string>
+    <string name="privacy_policy_link">http://en.swiftbraille.com/blog/privacy-policy/?utm_source=SwiftBrailleApp</string>
+
+    <!-- Braille cell layout dialog -->
+    <string name="braille_cell_layout_dialog_description">Cette disposition affiche les six points Braille comme ils sont représentés dans la cellule Braille, et ceci la disposition par défaut.</string>
+	<string name="braille_cell_first_dot_position">- Premier point: en haut à gauche du clavier.</string>
+    <string name="braille_cell_second_dot_position">-Deuxième point: au centre à gauche du clavier.</string>
+    <string name="braille_cell_third_dot_position">- Troisième point: en bas à gauche du clavier.</string>
+    <string name="braille_cell_fourth_dot_position">- Quatrième point: en haut à droite du clavier.</string>
+    <string name="braille_cell_fifth_dot_position">- Cinquième point: au centre à droite du clavier.</string>
+    <string name="braille_cell_sixth_dot_position">- Sixième point: au centre à droite du clavier.</string>
+    <string name="braille_cell_feature_1">- Cette disposition est un bon choix pour ceux qui aiment taper avec une seul main et un seul doigt en reliant les points nécessaires ensemble.</string>
+	<string name="braille_cell_feature_2">- Tu peux changer la position de démarage des points Braille pour être démarré à partir de la droite du clavier, from advanced settings screen.</string>
+    <string name="braille_cell_feature_3">- Tu peux utiliser des gestes au milieu de l\'écran, en dehors des points.</string>
+    <string name="braille_cell_feature_4">- Tu peux taper en utilisant les six doigts, si tu inverse les points Braille pour démarrer à partir de la droite du clavier. veuillez désactiver le lecteur d\'écran pour utiliser le multi-touch correctement.</string>
+
+    <!-- Perkins layout dialog -->
+    <string name="perkins_layout_dialog_description">Cette disposition affiche les six points Braille comme ils sont représentés dans la machine Perkins.</string>
+    <string name="perkins_first_dot_position">- Premier point: en bas à gauche de l\'écran, après le deuxième point.</string>
+    <string name="perkins_second_dot_position">- Deuxième point: en bas à gauche du clavier, après le troisième point.</string>
+    <string name="perkins_third_dot_position">- Troisième point: en bas à gauche du clavier>- Troisième point: en bas à gauche du clavier.</string>
+    <string name="perkins_fourth_dot_position">- Quatrième point: en bas à droite du clavier, après le premier point.</string>
+    <string name="perkins_fifth_dot_position">- Cinquième point: en bas à droite du clavier, après le quatrième point.</string>
+    <string name="perkins_sixth_dot_position">- Sixième point: en bas à droite du clavier.</string>
+    <string name="perkins_layout_dialog_extra_text_1">Comme il est possible, le premier groupe des points Braille sera dans la partie gauche du clavier (1,2,3) et le second groupe sera dans le droit du clavier (4,5,6).</string>
+    <string name="perkins_feature_1">- Cette disposition est un bon choix pour ceux qui aiment écrir en utilisant les six doigts que la machine Perkins fait (il faut désactiver le lecteur d\'ecran).</string>
+    <string name="perkins_feature_2">- Conçu pour les smartphones (mode paysage) et les tablettes avec sept pouces ou plus en dimension.</string>
+	<string name="perkins_feature_3">- Tu peux taper en utilisant plus d\'un doigt pour relier des points Braille nécessaires ensemble.</string>
+    <string name="perkins_feature_4">- Tu peux utiliser cette disposition principalement dans le mode paysage, si votre appareil a une grande largeur (tablettes),tu peux l\'utiliser en mode portrait,.</string>
+    <string name="perkins_feature_5">- Tu peux utiliser des gestes si tu as un espace libre dans le clavier en dehors des points Braille, sinon tu as besoin d\'activer le boutons des opérations bars.</string>
+    <string name="perkins_feature_6">- Tu peux laisser le nombre de points deux et cinq plus élevé que  d\'autres points pour taper plus confortable, à partir des paramètres avancés.</string>
+
+    <!-- Two rows layout dialog-->
+    <string name="two_rows_layout_dialog_description">Cette disposition affiche les six points Braille en deux lignes horizontalement.</string>
+    <string name="two_rows_first_dot_position">- Premier point: En haut à droite du clavier, au-dessus du quatrième point.</string>
+    <string name="two_rows_second_dot_position">- Deuxième point: au centre du clavier, au-dessus du cinquième point.</string>
+    <string name="two_rows_third_dot_position">- Troisième point: en haut à gauche du clavier, au-dessus du sixième point.</string>
+    <string name="two_rows_fourth_dot_position">- Quatrième point: en bas à gauche du clavier, ci-dessous du troisième point.</string>
+    <string name="two_rows_fifth_dot_position">- Cinquième point: en bas au centre du clavier, au-dessous du deuxième point.</string>
+    <string name="two_rows_sixth_dot_position">- Sixième point: en bas à droite du clavier, au-dessous du premier point.</string>
+    <string name="two_rows_feature_1">- Cette disposition est un bon choix pour ceux qui aiment taper avec une seul main   et trois doigts en reliant les points nécessaires ensemble.</string>
+    <string name="two_rows_feature_2">- Tu peux taper en utilisant les trois doigts  ensemble pour taper ou en connectant les points nécessaires, et il faut désactiver le lecteur d\'écran.</string>
+	<string name="two_rows_feature_3">- Tu peux afficher les barres des operations s\'il n\'y a pas d\'espace pour faire des gestes.</string>
+
+    <!-- English General Pattern & Math-->
+    <string name="comma_pattern">Virgule</string>
+    <string name="and_pattern">Esperluette</string>
+    <string name="colon_pattern">Deux-points</string>
+    <string name="exclamation_mark_pattern">Point d\'exclamation</string>
+    <string name="opening_parenthesis_pattern">Parenthèse ouverte</string>
+    <string name="closing_parenthesis_pattern">Parenthèse fermée</string>
+    <string name="double_quotation_pattern">Guillemet double</string>
+    <string name="dot_pattern">Arrêt total</string>
+    <string name="decimal_dot_pattern">Virgule</string>
+    <string name="semicolon_pattern">Point-virgule</string>
+    <string name="question_mark_pattern">Point d\'interrogation</string>
+    <string name="percent_pattern">Pourcent</string>
+    <string name="slash_pattern">Barre oblique</string>
+    <string name="back_slash_pattern">Barre oblique inversée</string>
+    <string name="hash_pattern">Hachage</string>
+    <string name="equals_pattern">égal</string>
+    <string name="plus_pattern">Plus</string>
+    <string name="minus_pattern">Moins</string>
+    <string name="multiply_pattern">Multiplier</string>
+    <string name="asterisk_pattern">Astérisque</string>
+    <string name="divided_by_pattern">Dévisé par</string>
+    <string name="at_pattern">Arobase</string>
+    <string name="apostrophe_pattern">Apostrophe</string>
+    <string name="underscore_pattern">Tiret bas</string>
+    <string name="greater_than_pattern">Supérieur à</string>
+    <string name="right_arrowhead_pattern">Flèche droite</string>
+    <string name="less_than_pattern">Inférieur à</string>
+    <string name="left_arrowhead_pattern">Flèche gauche</string>
+
+    <!-- Keyboards and languages -->
+    <string name="english_small_letters_keyboard">Clavier des lettres minuscules anglaises</string>
+    <string name="spanish_small_letters_keyboard">clavier des lettres minuscules espagnoles</string>
+    <string name="french_small_letters_keyboard">clavier des lettres minuscules françaises</string>
+    <string name="english_capital_letters_keyboard">Clavier des lettres majuscules anglaises</string>
+    <string name="spanish_capital_letters_keyboard">clavier des lettres majuscules espagnoles</string>
+    <string name="french_capital_letters_keyboard">clavier des lettres majuscules françaises</string>
+    <string name="arabic_letters_keyboard">Clavier des lettres arabe</string>
+    <string name="arabic_punc_letters_keyboard">Clavier de ponctuations arabe</string>
+    <string name="math_symbols_keyboard">Clavier de symboles mathématiques</string>
+    <string name="special_symbols_keyboard">Clavier de symboles spéciaux</string>
+    <string name="numbers_keyboard">Clavier de chiffres</string>
+    <string name="english_current_language">Clavier de saisie anglais</string>
+    <string name="arabic_current_language">Clavier de saisie arabe</string>
+    <string name="spanish_current_language">Spanish input keyboard</string>
+    <string name="french_current_language">French input keyboard</string>
+    <string name="keyboard_type_up">Type de clavier précédent</string>
+    <string name="keyboard_type_down">Type de clavier suivant</string>
+</resources>

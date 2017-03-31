@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/swiftBrailleBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Dots Pattern -->
+        <TextView
+            android:id="@+id/dotsPatternItem"
+            android:onClick="onDotsLayoutItemAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/ic_dots_green_48dp"
+            android:drawableStart="@mipmap/ic_dots_green_48dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/dots_layout"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/secondaryText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/separatorColor" />
+
+        <!--Dots Style -->
+        <TextView
+            android:id="@+id/dotsStyleItem"
+            android:onClick="onDotsStyleItemAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/ic_style_green_48dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@mipmap/ic_style_green_48dp"
+            android:gravity="center_vertical"
+            android:text="@string/dot_style"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/secondaryText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/separatorColor" />
+
+        <!-- Keyboard Languages -->
+        <TextView
+            android:id="@+id/keyboardLanguagesItem"
+            android:onClick="onKeyboardLanguagesItemAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/ic_language_green_48dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@mipmap/ic_language_green_48dp"
+            android:gravity="center_vertical"
+            android:text="@string/keyboard_languages"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/secondaryText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/separatorColor" />
+
+        <!-- Keyboard dimensions -->
+        <TextView
+            android:id="@+id/keyboardDimensionItem"
+            android:onClick="onKeyboardDimensionItemAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/ic_zoom_out_map_green_48dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@mipmap/ic_zoom_out_map_green_48dp"
+            android:gravity="center_vertical"
+            android:text="@string/keyboard_dimensions"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/secondaryText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/separatorColor" />
+
+        <!-- Sounds -->
+        <TextView
+            android:id="@+id/soundsItem"
+            android:onClick="onSoundsItemAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/ic_hearing_green_48dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@mipmap/ic_hearing_green_48dp"
+            android:gravity="center_vertical"
+            android:text="@string/sounds_item"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/secondaryText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/separatorColor" />
+
+        <!-- Advanced -->
+        <TextView
+            android:id="@+id/advancedItem"
+            android:onClick="onAdvancedItemAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/ic_settings_green_48dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@mipmap/ic_settings_green_48dp"
+            android:gravity="center_vertical"
+            android:text="@string/advanced_item"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/secondaryText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/separatorColor" />
+
+        <!-- Special tools-->
+        <TextView
+            android:id="@+id/specialToolsItem"
+            android:onClick="onSpecialToolsItemAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/ic_info_outline_green_48dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@mipmap/ic_add_shopping_cart_black_48dp"
+            android:gravity="center_vertical"
+            android:text="@string/special_tools_item"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/secondaryText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/separatorColor" />
+
+        <!-- About -->
+        <TextView
+            android:id="@+id/aboutItem"
+            android:onClick="onAboutItemAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/ic_info_outline_green_48dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@mipmap/ic_info_outline_green_48dp"
+            android:gravity="center_vertical"
+            android:text="@string/about_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/secondaryText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/separatorColor" />
+
+        <!-- Reset settings button -->
+        <Button
+            android:id="@+id/resetSettingsBtn"
+            style="@style/btnStyle.redBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:onClick="onResetSettingsBtnAction"
+            android:text="@string/reset_settings" />
+
+    </LinearLayout>
+</ScrollView>

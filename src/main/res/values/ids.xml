@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="colorpickerview__color_picker_view" />
+    <item type="id" name="colorpickerview__color_panel_old" />
+    <item type="id" name="colorpickerview__color_panel_new" />
+    <item type="id" name="colorpickerview__preference_preview_color_panel" />
+
+    <!-- Braille Dots -->
+    <item type="id" name="braille_dot_1" />
+    <item type="id" name="braille_dot_2" />
+    <item type="id" name="braille_dot_3" />
+    <item type="id" name="braille_dot_4" />
+    <item type="id" name="braille_dot_5" />
+    <item type="id" name="braille_dot_6" />
+
+    <!-- Operations Bars-->
+    <item type="id" name="right_left_ops_btns_bar" />
+    <item type="id" name="top_ops_btns_bar" />
+    <item type="id" name="bottom_ops_btns_bar" />
+</resources>

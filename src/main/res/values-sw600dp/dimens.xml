@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Braille dots -->
+    <dimen name="braille_dot_stroke">5dp</dimen>
+    <dimen name="braille_dot_margin">15dp</dimen>
+    <dimen name="min_dot_radius">40dp</dimen>
+    <dimen name="braille_cell_free_area">150dp</dimen>
+
+    <!--Operations bars and buttons -->
+    <dimen name="operations_bar_height">55dp</dimen>
+    <dimen name="operations_btns_margin">10dp</dimen>
+    <dimen name="operations_btns_padding">5dp</dimen>
+    <dimen name="operations_btns_width">48dp</dimen>
+    <dimen name="operations_btns_height">48dp</dimen>
+</resources>
