@@ -13,7 +13,7 @@ Those apps are good in some points, but what about small screen dimensions? spec
 A soft keyboard, supports many languages [(read about supported languages)](http://en.swiftbraille.com/blog/supported-languages/) in user interface and inputs method, the blind will be able to type using one hand and one finger at least to type using Braille language, how? By connecting the needed Braille dots together. He can use his smart device in portrait or landscape.
 
 # Classes sketch
-<img src="https://github.com/MohammadAlBanna/Swift-Braille-Soft-keyboard/blob/master/files/Braille%20Keyboard%20Sketch.png?raw=true" />
+<img src="https://github.com/MohammadAlBanna/Swift-Braille-Soft-keyboard/blob/master/images/Braille%20Keyboard%20Sketch.png?raw=true" />
 
 # Resources
 1. [Main website - Arabic and English](http://swiftbraille.com).
